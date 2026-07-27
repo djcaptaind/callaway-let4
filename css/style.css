@@ -1,0 +1,5 @@
+body{margin:0;font-family:Arial,sans-serif;background:#f4f6f8}
+.hero{background:#0E2945;color:#fff;padding:60px;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;padding:30px}
+.card{background:#fff;padding:24px;border-radius:12px;text-decoration:none;color:#111;box-shadow:0 4px 12px rgba(0,0,0,.12)}
+.card:hover{transform:translateY(-4px)}

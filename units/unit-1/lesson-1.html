@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lesson 1 — Welcome to LET 3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/academy.css">
+<script defer src="../../assets/js/academy.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="../../index.html">
+      <div class="brand-mark">CLA</div>
+      <div class="brand-copy">
+        <strong>CALLAWAY LEADERSHIP ACADEMY</strong>
+        <small>Army JROTC LET 3</small>
+      </div>
+    </a>
+    <nav class="nav-links">
+      <a href="../../index.html">Home</a>
+      <a href="lesson-1.html" aria-current="page">Curriculum</a>
+      <a href="../../academy/cadet-center/index.html">Cadet Center</a>
+      <a href="../../academy/parent-center/index.html">Parent Center</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumbs">Army JROTC LET 3 · Unit 1 · Lesson 1</div>
+    <h1>Welcome to LET 3</h1>
+    <p>Begin your year by understanding the course, identifying what successful leadership looks like, and setting a personal direction for growth.</p>
+  </div>
+</section>
+
+<div class="lesson-shell">
+  <div class="progress-wrap">
+    <div class="progress-label"><span>Lesson Progress</span><span>1 of 7</span></div>
+    <div class="progress"><span></span></div>
+  </div>
+
+  <div class="lesson-layout">
+    <aside class="lesson-nav">
+      <strong>Lesson Sections</strong>
+      <a href="#target">Learning Target</a>
+      <a href="#course">Meet the Course</a>
+      <a href="#leadership">Leadership Spotlight</a>
+      <a href="#scenario">Leadership Challenge</a>
+      <a href="#check">Knowledge Check</a>
+      <a href="#reflection">Reflection</a>
+    </aside>
+
+    <div class="lesson-content">
+      <section class="lesson-section" id="target">
+        <span class="kicker">Start Here</span>
+        <h2>Learning Target</h2>
+        <p>By the end of this lesson, you should be able to explain the purpose of LET 3, describe behaviors that support success, and identify one leadership goal for the year.</p>
+        <ul class="objective-list">
+          <li><span class="check">✓</span><span>Understand how LET 3 is organized and what you will learn.</span></li>
+          <li><span class="check">✓</span><span>Recognize the habits and responsibilities of successful cadets.</span></li>
+          <li><span class="check">✓</span><span>Choose a leadership skill you want to strengthen.</span></li>
+        </ul>
+      </section>
+
+      <section class="lesson-section" id="course">
+        <span class="kicker">Course Overview</span>
+        <h2>Meet Your Course</h2>
+        <p>LET 3 focuses on leadership in action. You will practice communication, teamwork, decision-making, responsibility, citizenship, and service.</p>
+        <div class="grid grid-3" style="margin-top:18px">
+          <div class="card"><div class="icon">L</div><h3>Leadership</h3><p>Lead yourself and others with purpose.</p></div>
+          <div class="card"><div class="icon">C</div><h3>Communication</h3><p>Speak, listen, write, and present effectively.</p></div>
+          <div class="card"><div class="icon">T</div><h3>Teamwork</h3><p>Build trust and contribute to group success.</p></div>
+          <div class="card"><div class="icon">R</div><h3>Responsibility</h3><p>Own your decisions, preparation, and conduct.</p></div>
+          <div class="card"><div class="icon">S</div><h3>Service</h3><p>Use leadership to improve your community.</p></div>
+          <div class="card"><div class="icon">F</div><h3>Future Readiness</h3><p>Prepare for college, careers, and adult life.</p></div>
+        </div>
+      </section>
+
+      <section class="lesson-section" id="leadership">
+        <span class="kicker">Leadership Spotlight</span>
+        <h2>Leadership Begins Before the Title</h2>
+        <div class="quote">Leadership is visible in preparation, attitude, reliability, and the willingness to act when something needs to be done.</div>
+        <p>A position can give someone authority, but daily choices build credibility. In LET 3, leadership will be measured by how consistently you help the team succeed.</p>
+      </section>
+
+      <section class="lesson-section scenario" id="scenario">
+        <span class="kicker">Interactive Scenario</span>
+        <h2>Leadership Challenge</h2>
+        <p>You are the first student to arrive. The room is not ready for instruction, chairs are out of place, and materials are still on a table. What is the strongest response?</p>
+        <div class="option-grid">
+          <button class="option" onclick="showScenarioFeedback('try')">A. Sit down and wait because it is not your assigned job.</button>
+          <button class="option" onclick="showScenarioFeedback('good')">B. Begin organizing the room safely and ask others to help as they arrive.</button>
+          <button class="option" onclick="showScenarioFeedback('try')">C. Take a picture and complain about the condition of the room.</button>
+          <button class="option" onclick="showScenarioFeedback('try')">D. Move only your own chair and ignore everything else.</button>
+        </div>
+        <div id="scenario-feedback" class="feedback" aria-live="polite"></div>
+      </section>
+
+      <section class="lesson-section" id="check">
+        <span class="kicker">Check Your Understanding</span>
+        <h2>Knowledge Check</h2>
+
+        <div class="quiz-question">
+          <h3>1. What is a major focus of LET 3?</h3>
+          <label><input type="radio" name="q1" value="a"> Memorizing information without applying it</label><br>
+          <label><input type="radio" name="q1" value="b"> Practicing leadership, communication, and teamwork</label><br>
+          <label><input type="radio" name="q1" value="c"> Avoiding responsibility until given a title</label>
+        </div>
+
+        <div class="quiz-question">
+          <h3>2. Which behavior best supports success?</h3>
+          <label><input type="radio" name="q2" value="a"> Waiting for others to solve every problem</label><br>
+          <label><input type="radio" name="q2" value="b"> Participating only when graded</label><br>
+          <label><input type="radio" name="q2" value="c"> Arriving prepared and contributing consistently</label>
+        </div>
+
+        <div class="quiz-question">
+          <h3>3. Leadership is best demonstrated by:</h3>
+          <label><input type="radio" name="q3" value="a"> Daily choices and reliable actions</label><br>
+          <label><input type="radio" name="q3" value="b"> Having the loudest voice</label><br>
+          <label><input type="radio" name="q3" value="c"> Holding a title without helping the team</label>
+        </div>
+
+        <button class="btn btn-primary" onclick="gradeKnowledgeCheck()">Check My Answers</button>
+        <div id="quiz-result" class="quiz-result" aria-live="polite">Your score will appear here.</div>
+      </section>
+
+      <section class="lesson-section reflection" id="reflection">
+        <span class="kicker">Personal Reflection</span>
+        <h2>Your Leadership Goal</h2>
+        <p>What leadership skill do you most want to strengthen this year, and why?</p>
+        <textarea id="reflection" placeholder="Write your response here..."></textarea>
+        <div class="actions">
+          <button class="btn btn-primary" onclick="saveReflection()">Save Reflection</button>
+          <a class="btn btn-outline" href="https://canvas.instructure.com/" target="_blank" rel="noopener">Open Canvas Assignment</a>
+        </div>
+        <p id="reflection-status" aria-live="polite"></p>
+      </section>
+
+      <section class="lesson-section">
+        <div class="lesson-footer">
+          <a class="btn btn-outline" href="../../index.html">← Academy Home</a>
+          <a class="btn btn-primary" href="#">Continue to Lesson 2 →</a>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div><strong>Callaway Leadership Academy</strong><br><small>Powered by Callaway High School Army JROTC</small></div>
+    <small>Army JROTC LET 3</small>
+  </div>
+</footer>
+</body>
+</html>

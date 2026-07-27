@@ -1,0 +1,30 @@
+CALLAWAY V9 RESTORE + MODULE UPGRADE
+
+LOCKED HOMEPAGE
+- index.html is the exact V9 file supplied by the instructor.
+- Do not replace, redesign, or rebrand it.
+- Do not overwrite assets/css/style.css or assets/js/script.js.
+
+NEW MODULE PLATFORM FILES
+- modules/week-1/index.html
+- modules/week-1/lesson-1.html
+- modules/week-1/lesson-2.html
+- assets/css/module-platform.css
+- assets/js/module-platform.js
+
+UPLOAD METHOD
+1. Upload index.html to restore the approved V9 homepage.
+2. Upload the modules/week-1 folder.
+3. Upload module-platform.css into assets/css.
+4. Upload module-platform.js into assets/js.
+5. Do not delete the existing homepage images, CSS, JavaScript, teams, media, or battalion folders.
+
+GITHUB PAGES LINKS
+Week 1 Overview:
+https://djcaptaind.github.io/callaway-let3/modules/week-1/
+
+Lesson 1:
+https://djcaptaind.github.io/callaway-let3/modules/week-1/lesson-1.html
+
+CANVAS
+Use the Week 1 Overview or Lesson 1 URL as an External URL item in the existing Canvas Week 1 module.

@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lesson 1 — Welcome to LET 3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/module-platform.css">
+  <script src="../../assets/js/module-platform.js" defer></script>
+</head>
+<body>
+<header class="module-topbar">
+  <div class="module-topbar-inner">
+    <a class="module-brand" href="../../index.html">
+      <img src="../../images/homepage/callaway-jrotc-logo.png" alt="Callaway JROTC logo">
+      <span><strong>CALLAWAY JROTC</strong><small>LET 3 Digital Learning Module</small></span>
+    </a>
+    <a class="canvas-link" href="https://jacksonps.instructure.com/courses/90257/modules" target="_top">Return to Canvas</a>
+  </div>
+</header>
+
+<section class="lesson-hero">
+  <div class="lesson-hero-inner">
+    <span class="eyebrow">Week 1 · Unit 1 · Lesson 1</span>
+    <h1>Welcome to LET 3</h1>
+    <p>Understand how the course works, identify the habits of successful cadets, and begin setting your personal leadership direction for the year.</p>
+    <div class="lesson-meta">
+      <span>Approx. 20 minutes</span>
+      <span>Interactive lesson</span>
+      <span>Canvas reflection required</span>
+    </div>
+  </div>
+</section>
+
+<div class="progress-shell">
+  <div class="progress-label"><span>Lesson progress</span><span>1 of 7 sections</span></div>
+  <div class="progress-track"><i></i></div>
+</div>
+
+<main class="module-layout">
+  <aside class="lesson-nav">
+    <strong>Lesson Sections</strong>
+    <a href="#target">Learning Target</a>
+    <a href="#course">Course Overview</a>
+    <a href="#success">Success in LET 3</a>
+    <a href="#scenario">Leadership Challenge</a>
+    <a href="#check">Knowledge Check</a>
+    <a href="#reflection">Reflection</a>
+  </aside>
+
+  <div class="lesson-content">
+    <section class="panel" id="target">
+      <span class="kicker">Start Here</span>
+      <h2>Learning Target</h2>
+      <p>By the end of this lesson, you should be able to explain the purpose of LET 3, describe behaviors that support success, and select one leadership skill to strengthen.</p>
+      <ul class="objectives">
+        <li><span class="check">✓</span><span>Understand the organization and purpose of LET 3.</span></li>
+        <li><span class="check">✓</span><span>Recognize the habits and responsibilities of successful cadets.</span></li>
+        <li><span class="check">✓</span><span>Identify a personal leadership goal for the school year.</span></li>
+      </ul>
+    </section>
+
+    <section class="panel" id="course">
+      <span class="kicker">Course Overview</span>
+      <h2>What You Will Develop</h2>
+      <div class="card-grid">
+        <div class="mini-card"><strong>Leadership</strong><span>Guide yourself and others with purpose.</span></div>
+        <div class="mini-card"><strong>Communication</strong><span>Speak, listen, write, and present effectively.</span></div>
+        <div class="mini-card"><strong>Teamwork</strong><span>Build trust and contribute to shared goals.</span></div>
+        <div class="mini-card"><strong>Responsibility</strong><span>Own your preparation, conduct, and decisions.</span></div>
+        <div class="mini-card"><strong>Service</strong><span>Use leadership to improve your school and community.</span></div>
+        <div class="mini-card"><strong>Future Readiness</strong><span>Prepare for college, careers, and adult life.</span></div>
+      </div>
+    </section>
+
+    <section class="panel" id="success">
+      <span class="kicker">Student Success</span>
+      <h2>What Success Looks Like</h2>
+      <div class="callout">Leadership begins before a person receives a title. Preparation, reliability, initiative, respect, and follow-through build credibility.</div>
+      <ul class="objectives">
+        <li><span class="check">✓</span><span>Check Canvas and class announcements regularly.</span></li>
+        <li><span class="check">✓</span><span>Arrive prepared and participate productively.</span></li>
+        <li><span class="check">✓</span><span>Ask questions and seek clarification when needed.</span></li>
+        <li><span class="check">✓</span><span>Respect classmates, instructors, equipment, and the learning environment.</span></li>
+        <li><span class="check">✓</span><span>Lead by example through daily choices.</span></li>
+      </ul>
+    </section>
+
+    <section class="panel scenario" id="scenario">
+      <span class="kicker">Interactive Scenario</span>
+      <h2>Leadership Challenge</h2>
+      <p>You are the first student to arrive. The room is not ready for instruction, chairs are out of place, and materials are still on a table. What is the strongest response?</p>
+      <div class="option-list">
+        <button class="option" onclick="scenarioFeedback('try')">A. Sit down and wait because it is not your assigned job.</button>
+        <button class="option" onclick="scenarioFeedback('good')">B. Begin organizing the room safely and ask others to help as they arrive.</button>
+        <button class="option" onclick="scenarioFeedback('try')">C. Take a picture and complain about the room.</button>
+        <button class="option" onclick="scenarioFeedback('try')">D. Move only your own chair and ignore everything else.</button>
+      </div>
+      <div id="scenario-feedback" class="feedback" aria-live="polite"></div>
+    </section>
+
+    <section class="panel" id="check">
+      <span class="kicker">Check Your Understanding</span>
+      <h2>Knowledge Check</h2>
+      <div class="question">
+        <strong>1. What is a major focus of LET 3?</strong><br>
+        <label><input type="radio" name="q1" value="a"> Memorizing information without applying it</label><br>
+        <label><input type="radio" name="q1" value="b"> Practicing leadership, communication, and teamwork</label><br>
+        <label><input type="radio" name="q1" value="c"> Avoiding responsibility until given a title</label>
+      </div>
+      <div class="question">
+        <strong>2. Which behavior best supports success?</strong><br>
+        <label><input type="radio" name="q2" value="a"> Waiting for others to solve every problem</label><br>
+        <label><input type="radio" name="q2" value="b"> Participating only when graded</label><br>
+        <label><input type="radio" name="q2" value="c"> Arriving prepared and contributing consistently</label>
+      </div>
+      <div class="question">
+        <strong>3. Leadership is best demonstrated by:</strong><br>
+        <label><input type="radio" name="q3" value="a"> Daily choices and reliable actions</label><br>
+        <label><input type="radio" name="q3" value="b"> Having the loudest voice</label><br>
+        <label><input type="radio" name="q3" value="c"> Holding a title without helping the team</label>
+      </div>
+      <button class="btn btn-primary" onclick="gradeCheck()">Check My Answers</button>
+      <div id="check-result" class="result" aria-live="polite">Your score will appear here.</div>
+    </section>
+
+    <section class="panel" id="reflection">
+      <span class="kicker">Personal Reflection</span>
+      <h2>Your Leadership Goal</h2>
+      <p>What leadership skill do you most want to strengthen this year, and why?</p>
+      <textarea id="reflection" placeholder="Write your response here..."></textarea>
+      <div class="actions">
+        <button class="btn btn-primary" onclick="saveReflection()">Save Draft</button>
+        <a class="btn btn-secondary" href="https://jacksonps.instructure.com/courses/90257/assignments" target="_top">Submit in Canvas</a>
+      </div>
+      <p id="reflection-status" aria-live="polite"></p>
+    </section>
+
+    <section class="panel">
+      <div class="lesson-end">
+        <a class="btn btn-outline" href="index.html">← Week 1 Overview</a>
+        <a class="btn btn-primary" href="lesson-2.html">Continue to Lesson 2 →</a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer><div><strong>Callaway High School JROTC · LET 3</strong><br><small>Digital lesson platform for the 2026–2027 school year.</small></div></footer>
+</body>
+</html>
