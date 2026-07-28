@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a1f44" />
+  <title>LET 4 • Week 2 Lesson 1 • Leadership Is a Choice</title>
+  <link rel="stylesheet" href="lesson01.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="topbar">
+    <a class="brand" href="../../index.html" aria-label="Return to Callaway Command Network">
+      <div class="brand-mark">C</div>
+      <div>
+        <span class="brand-kicker">CALLAWAY COMMAND NETWORK</span>
+        <strong>LET 4 • WEEK 2 • LESSON 1</strong>
+      </div>
+    </a>
+    <div class="top-actions">
+      <button class="ghost-btn" id="instructorBtn" type="button">Instructor Mode</button>
+      <button class="ghost-btn" id="resetBtn" type="button">Reset Progress</button>
+      <a class="home-btn" href="../../index.html">Dashboard</a>
+    </div>
+  </header>
+
+  <div class="lesson-shell">
+    <aside class="sidebar" aria-label="Lesson navigation">
+      <div class="progress-card">
+        <div class="progress-label">
+          <span>Lesson Progress</span>
+          <strong id="progressText">0%</strong>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+      </div>
+
+      <nav id="lessonNav">
+        <button class="nav-item active" data-target="opening"><span>01</span>Opening</button>
+        <button class="nav-item" data-target="leadership"><span>02</span>Leadership</button>
+        <button class="nav-item" data-target="myths"><span>03</span>Myth or Reality</button>
+        <button class="nav-item" data-target="video"><span>04</span>Watch & Analyze</button>
+        <button class="nav-item" data-target="choices"><span>05</span>Everyday Choices</button>
+        <button class="nav-item" data-target="compass"><span>06</span>Leadership Compass</button>
+        <button class="nav-item" data-target="challenge"><span>07</span>Leadership Challenge</button>
+        <button class="nav-item" data-target="reflection"><span>08</span>Reflection</button>
+        <button class="nav-item" data-target="action"><span>09</span>Leadership in Action</button>
+        <button class="nav-item" data-target="complete"><span>10</span>Complete</button>
+      </nav>
+
+      <div class="sidebar-note">
+        <span class="pulse-dot"></span>
+        Progress saves automatically on this device.
+      </div>
+    </aside>
+
+    <main class="lesson-content">
+      <section class="hero lesson-section active" id="opening" data-section="opening">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <span class="eyebrow">FOUNDATIONAL LEADERSHIP</span>
+          <h1>Leadership Is a <em>Choice.</em></h1>
+          <p class="hero-lead">
+            Senior leaders are judged not only by what they do, but by the standards, trust, and culture
+            their decisions create for everyone who follows.
+          </p>
+          <div class="hero-meta">
+            <span>45–60 minutes</span>
+            <span>Interactive lesson</span>
+            <span>Progress saved</span>
+          </div>
+          <button class="primary-btn begin-btn" data-next="leadership" type="button">
+            Begin Lesson <span>→</span>
+          </button>
+        </div>
+        <div class="hero-quote">
+          <small>ESSENTIAL QUESTION</small>
+          <p>How does a senior cadet deliberately shape standards, trust, and team culture?</p>
+        </div>
+      </section>
+
+      <section class="lesson-section" id="leadership" data-section="leadership">
+        <div class="section-heading">
+          <span class="eyebrow">PART 1</span>
+          <h2>Leadership Expands Beyond the Title</h2>
+          <p>
+            LET 4 leadership requires more than personal example. Senior cadets must establish expectations,
+            develop others, communicate clearly, and protect the long-term health of the team.
+          </p>
+        </div>
+
+        <div class="definition-grid">
+          <article class="feature-card">
+            <div class="feature-icon">01</div>
+            <h3>Choice</h3>
+            <p>You decide which standard to establish, how to communicate it, and who must be developed to sustain it.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">02</div>
+            <h3>Influence</h3>
+            <p>Your decisions shape team climate, informal norms, trust, and the behavior junior cadets believe leaders will accept.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">03</div>
+            <h3>Responsibility</h3>
+            <p>Senior leaders identify ownership, delegate responsibility, follow up, and remain accountable for the final result.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">04</div>
+            <h3>Service</h3>
+            <p>Strong leadership develops people, strengthens systems, and leaves the organization more capable than before.</p>
+          </article>
+        </div>
+
+        <div class="callout">
+          <div>
+            <span class="callout-label">KEY IDEA</span>
+            <h3>Senior leadership is visible in the standards, systems, and people a leader develops consistently.</h3>
+          </div>
+          <button class="complete-section-btn" data-complete="leadership" type="button">Mark Section Complete</button>
+        </div>
+      </section>
+
+      <section class="lesson-section" id="myths" data-section="myths">
+        <div class="section-heading">
+          <span class="eyebrow">PART 2</span>
+          <h2>Myth or Reality?</h2>
+          <p>Select each card to reveal the leadership reality. Open all six cards to continue.</p>
+        </div>
+
+        <div class="myth-grid" id="mythGrid">
+          <button class="flip-card" type="button">
+            <span class="card-face card-front"><small>MYTH 01</small><strong>Leaders are born.</strong><em>Reveal reality</em></span>
+            <span class="card-face card-back"><small>REALITY</small><strong>Leadership is learned.</strong><p>Skill grows through practice, feedback, reflection, and repeated choices.</p></span>
+          </button>
+          <button class="flip-card" type="button">
+            <span class="card-face card-front"><small>MYTH 02</small><strong>You need rank to lead.</strong><em>Reveal reality</em></span>
+            <span class="card-face card-back"><small>REALITY</small><strong>Influence can begin anywhere.</strong><p>A cadet without rank can still model discipline, courage, and service.</p></span>
+          </button>
+          <button class="flip-card" type="button">
+            <span class="card-face card-front"><small>MYTH 03</small><strong>Leaders always have answers.</strong><em>Reveal reality</em></span>
+            <span class="card-face card-back"><small>REALITY</small><strong>Leaders ask strong questions.</strong><p>Good leaders listen, gather facts, and admit when they need help.</p></span>
+          </button>
+          <button class="flip-card" type="button">
+            <span class="card-face card-front"><small>MYTH 04</small><strong>Leadership means being in control.</strong><em>Reveal reality</em></span>
+            <span class="card-face card-back"><small>REALITY</small><strong>Leadership means creating direction.</strong><p>People follow leaders who provide purpose, clarity, and trust.</p></span>
+          </button>
+          <button class="flip-card" type="button">
+            <span class="card-face card-front"><small>MYTH 05</small><strong>Popular people are strong leaders.</strong><em>Reveal reality</em></span>
+            <span class="card-face card-back"><small>REALITY</small><strong>Character matters more than popularity.</strong><p>Leadership sometimes requires an unpopular but responsible decision.</p></span>
+          </button>
+          <button class="flip-card" type="button">
+            <span class="card-face card-front"><small>MYTH 06</small><strong>One big moment defines a leader.</strong><em>Reveal reality</em></span>
+            <span class="card-face card-back"><small>REALITY</small><strong>Habits build leadership.</strong><p>Trust is earned through repeated choices over time.</p></span>
+          </button>
+        </div>
+
+        <div class="status-message" id="mythStatus">0 of 6 leadership realities revealed.</div>
+      </section>
+
+      <section class="lesson-section" id="video" data-section="video">
+        <div class="section-heading">
+          <span class="eyebrow">PART 3</span>
+          <h2>Watch & Analyze</h2>
+          <p>
+            Watch the assigned leadership video from your instructor. Analyze how the leader influences culture,
+            communicates expectations, manages stakeholders, and creates second-order effects.
+          </p>
+        </div>
+
+        <div class="video-panel">
+          <div class="video-placeholder">
+            <div class="play-ring">▶</div>
+            <h3>Instructor Video</h3>
+            <p>Your instructor will play or assign the Week 2 leadership video.</p>
+            <small>Use this lesson page to record your analysis.</small>
+          </div>
+          <div class="instructor-panel hidden" id="instructorPanel">
+            <strong>Instructor Notes</strong>
+            <p>
+              Recommended video themes: everyday leadership, quiet leadership, taking initiative, or
+              character under pressure. Use a district-approved video source.
+            </p>
+          </div>
+        </div>
+
+        <div class="response-grid">
+          <label class="response-card">
+            <span>1. What leadership decision most shaped the team or organization?</span>
+            <textarea id="videoQ1" placeholder="Identify the decision, the affected stakeholders, and the immediate result."></textarea>
+          </label>
+          <label class="response-card">
+            <span>2. How did the leader's communication strengthen or weaken trust?</span>
+            <textarea id="videoQ2" placeholder="Use specific evidence and identify the leadership principle involved."></textarea>
+          </label>
+          <label class="response-card full">
+            <span>3. What would your leadership plan have been?</span>
+            <textarea id="videoQ3" placeholder="Explain your decision, communication plan, risks, and how you would measure success."></textarea>
+          </label>
+        </div>
+
+        <button class="primary-btn save-response-btn" data-check="video" type="button">Save Analysis</button>
+        <div class="status-message" id="videoStatus"></div>
+      </section>
+
+      <section class="lesson-section" id="choices" data-section="choices">
+        <div class="section-heading">
+          <span class="eyebrow">PART 4</span>
+          <h2>Everyday Leadership Choices</h2>
+          <p>Choose the response that best protects standards, develops people, and strengthens the organization. Read the feedback before moving forward.</p>
+        </div>
+
+        <div class="scenario-stack" id="scenarioStack">
+          <article class="scenario-card" data-scenario="1">
+            <div class="scenario-number">01</div>
+            <div class="scenario-body">
+              <h3>The Hallway</h3>
+              <p>You notice trash on the floor while other students walk past it.</p>
+              <div class="choice-list">
+                <button type="button" data-feedback="Ignoring the problem protects your comfort, but it does not improve the environment. Leadership begins when someone accepts responsibility.">Ignore it because it is not yours.</button>
+                <button type="button" data-feedback="This demonstrates initiative and responsibility. The action is small, but it helps establish a culture of ownership.">Pick it up without being asked.</button>
+                <button type="button" data-feedback="Reporting can be appropriate, but ask whether you can safely solve the problem immediately instead of transferring responsibility.">Tell an adult and keep walking.</button>
+              </div>
+              <div class="choice-feedback"></div>
+            </div>
+          </article>
+
+          <article class="scenario-card" data-scenario="2">
+            <div class="scenario-number">02</div>
+            <div class="scenario-body">
+              <h3>The New Student</h3>
+              <p>A new student is sitting alone during lunch and appears uncomfortable.</p>
+              <div class="choice-list">
+                <button type="button" data-feedback="Waiting for someone else is easy, but leaders notice who may be excluded and act with respect.">Assume someone else will speak to them.</button>
+                <button type="button" data-feedback="This is inclusive leadership. You are using influence to make the environment more respectful and connected.">Invite the student to sit with your group.</button>
+                <button type="button" data-feedback="A quick greeting is positive, but leadership may require a stronger action that creates belonging.">Say hello while walking past.</button>
+              </div>
+              <div class="choice-feedback"></div>
+            </div>
+          </article>
+
+          <article class="scenario-card" data-scenario="3">
+            <div class="scenario-number">03</div>
+            <div class="scenario-body">
+              <h3>The Group Project</h3>
+              <p>Your group is behind schedule because two members are not participating.</p>
+              <div class="choice-list">
+                <button type="button" data-feedback="Doing everything yourself may finish the task, but it does not develop the team or address the real problem.">Complete all the work yourself.</button>
+                <button type="button" data-feedback="This combines accountability with support. Strong leaders clarify the standard, assign responsibility, and help people succeed.">Talk with the group, reset roles, and establish a deadline.</button>
+                <button type="button" data-feedback="Reporting may eventually be necessary, but leaders usually attempt direct, respectful problem-solving first.">Immediately ask the teacher to remove them.</button>
+              </div>
+              <div class="choice-feedback"></div>
+            </div>
+          </article>
+
+          <article class="scenario-card" data-scenario="4">
+            <div class="scenario-number">04</div>
+            <div class="scenario-body">
+              <h3>The Group Chat</h3>
+              <p>Students begin making cruel jokes about a classmate in a group chat.</p>
+              <div class="choice-list">
+                <button type="button" data-feedback="Silence can allow harmful behavior to feel accepted. Leadership requires courage when a standard is being violated.">Stay silent to avoid conflict.</button>
+                <button type="button" data-feedback="This is moral courage. You establish a respectful standard and protect the dignity of another person.">Tell the group to stop and refuse to participate.</button>
+                <button type="button" data-feedback="Leaving protects you, but it may not help the person being targeted. Consider also documenting and reporting serious harassment.">Leave the chat without saying anything.</button>
+              </div>
+              <div class="choice-feedback"></div>
+            </div>
+          </article>
+
+          <article class="scenario-card" data-scenario="5">
+            <div class="scenario-number">05</div>
+            <div class="scenario-body">
+              <h3>The Lost Phone</h3>
+              <p>You find an unlocked phone after class and no one else is nearby.</p>
+              <div class="choice-list">
+                <button type="button" data-feedback="Keeping or exploring someone else's property violates trust and integrity.">Look through it to identify the owner.</button>
+                <button type="button" data-feedback="This protects the owner and demonstrates integrity even when no one is watching.">Turn it in immediately to a responsible adult.</button>
+                <button type="button" data-feedback="Leaving it may expose the property to theft or damage. Leadership includes protecting what belongs to others.">Leave it where you found it.</button>
+              </div>
+              <div class="choice-feedback"></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="status-message" id="scenarioStatus">Complete all five scenarios.</div>
+      </section>
+
+      <section class="lesson-section" id="compass" data-section="compass">
+        <div class="section-heading">
+          <span class="eyebrow">PART 5</span>
+          <h2>Your Leadership Compass</h2>
+          <p>Rate yourself honestly as a senior cadet leader. This is not a grade; it is a leadership-development snapshot.</p>
+        </div>
+
+        <div class="compass-layout">
+          <div class="rating-panel">
+            <div class="rating-row">
+              <label for="integrity">Integrity <span id="integrityValue">3</span></label>
+              <input id="integrity" type="range" min="1" max="5" value="3" />
+              <small>I apply standards consistently, even when doing so is inconvenient or unpopular.</small>
+            </div>
+            <div class="rating-row">
+              <label for="respect">Respect <span id="respectValue">3</span></label>
+              <input id="respect" type="range" min="1" max="5" value="3" />
+              <small>I protect dignity while still communicating clear expectations and corrective feedback.</small>
+            </div>
+            <div class="rating-row">
+              <label for="courage">Courage <span id="courageValue">3</span></label>
+              <input id="courage" type="range" min="1" max="5" value="3" />
+              <small>I address difficult issues early and accept the risk of responsible leadership.</small>
+            </div>
+            <div class="rating-row">
+              <label for="responsibility">Responsibility <span id="responsibilityValue">3</span></label>
+              <input id="responsibility" type="range" min="1" max="5" value="3" />
+              <small>I establish ownership, delegate clearly, follow up, and accept responsibility for the team's outcome.</small>
+            </div>
+            <div class="rating-row">
+              <label for="service">Selfless Service <span id="serviceValue">3</span></label>
+              <input id="service" type="range" min="1" max="5" value="3" />
+              <small>I develop other leaders and place organizational success above personal recognition.</small>
+            </div>
+            <div class="rating-row">
+              <label for="discipline">Discipline <span id="disciplineValue">3</span></label>
+              <input id="discipline" type="range" min="1" max="5" value="3" />
+              <small>I create routines, controls, and follow-up systems that sustain performance.</small>
+            </div>
+          </div>
+
+          <div class="compass-card">
+            <div class="score-ring">
+              <span id="compassScore">18</span>
+              <small>of 30</small>
+            </div>
+            <h3 id="compassTitle">Developing Leader</h3>
+            <p id="compassFeedback">You have a growing foundation. Focus on one value and practice it intentionally this week.</p>
+            <div class="strength-line">
+              <span>Current strength</span>
+              <strong id="strengthValue">Balanced</strong>
+            </div>
+            <div class="strength-line">
+              <span>Growth focus</span>
+              <strong id="growthValue">Balanced</strong>
+            </div>
+            <button class="primary-btn" id="saveCompass" type="button">Save Compass</button>
+          </div>
+        </div>
+        <div class="status-message" id="compassStatus"></div>
+      </section>
+
+      <section class="lesson-section" id="challenge" data-section="challenge">
+        <div class="section-heading">
+          <span class="eyebrow">PART 6</span>
+          <h2>Leadership Challenge</h2>
+          <p>Apply what you have learned to a senior-leader decision involving standards, communication, accountability, and team development.</p>
+        </div>
+
+        <div class="challenge-card">
+          <div class="challenge-banner">
+            <span>SCENARIO</span>
+            <h3>The Team Is Falling Behind</h3>
+          </div>
+          <div class="challenge-content">
+            <p>
+              Your team has a presentation due tomorrow. Two members have not completed their assigned work.
+              The group is frustrated, and one student suggests leaving their names off the project without speaking to them.
+              You are the senior cadet responsible for team performance, and everyone is waiting for your direction.
+            </p>
+
+            <fieldset>
+              <legend>What is your best initial leadership action?</legend>
+              <label><input type="radio" name="challengeChoice" value="A" /> Finish the missing work yourself and say nothing.</label>
+              <label><input type="radio" name="challengeChoice" value="B" /> Bring the team together, identify the problem, clarify responsibilities, and set a final check-in time.</label>
+              <label><input type="radio" name="challengeChoice" value="C" /> Remove the students' names immediately.</label>
+              <label><input type="radio" name="challengeChoice" value="D" /> Wait for the teacher to solve the problem.</label>
+            </fieldset>
+
+            <label class="response-card full">
+              <span>Explain why this response best supports the mission and the team.</span>
+              <textarea id="challengeWhy" placeholder="Address stakeholders, risks, standards, second-order consequences, and leader accountability."></textarea>
+            </label>
+
+            <label class="response-card full">
+              <span>How would you communicate the decision to the team?</span>
+              <textarea id="challengeWords" placeholder="Write the opening message, state the standard, assign responsibility, and identify the follow-up point."></textarea>
+            </label>
+
+            <button class="primary-btn" id="submitChallenge" type="button">Submit Leadership Decision</button>
+            <div class="challenge-feedback" id="challengeFeedback"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="lesson-section" id="reflection" data-section="reflection">
+        <div class="section-heading">
+          <span class="eyebrow">PART 7</span>
+          <h2>Leadership Reflection</h2>
+          <p>Use complete sentences and analyze your leadership impact. Your response saves automatically.</p>
+        </div>
+
+        <div class="journal-card">
+          <div class="journal-header">
+            <div>
+              <small>CADET LEADERSHIP JOURNAL</small>
+              <h3>What leadership system will you build?</h3>
+            </div>
+            <span id="wordCount">0 words</span>
+          </div>
+          <textarea id="journalText" class="journal-textarea" placeholder="Identify one team or organizational issue you can improve this week. Explain the standard you will establish, how you will communicate it, who must be involved, what risks you anticipate, and how you will measure improvement."></textarea>
+          <div class="journal-footer">
+            <span>Recommended: 100–150 words</span>
+            <button class="primary-btn" id="saveJournal" type="button">Save Reflection</button>
+          </div>
+        </div>
+        <div class="status-message" id="journalStatus"></div>
+      </section>
+
+      <section class="lesson-section" id="action" data-section="action">
+        <div class="section-heading">
+          <span class="eyebrow">PART 8</span>
+          <h2>Leadership in Action</h2>
+          <p>Leadership becomes real when it improves people and systems. Select one senior-leader action to complete this week.</p>
+        </div>
+
+        <div class="action-grid" id="actionGrid">
+          <button class="action-card" type="button" data-action="Coach a junior cadet through a difficult task without taking over.">
+            <span>SUPPORT</span>
+            <h3>Develop Another Leader</h3>
+            <p>Coach, question, and provide feedback while keeping responsibility with the junior leader.</p>
+          </button>
+          <button class="action-card" type="button" data-action="Identify a recurring team problem and establish a repeatable solution.">
+            <span>INITIATIVE</span>
+            <h3>Improve the System</h3>
+            <p>Clarify the standard, assign ownership, and establish a follow-up method.</p>
+          </button>
+          <button class="action-card" type="button" data-action="Conduct a purposeful check-in with a cadet who is disengaged or struggling.">
+            <span>INFLUENCE</span>
+            <h3>Strengthen Team Climate</h3>
+            <p>Listen, identify the issue, connect the cadet to support, and establish a responsible next step.</p>
+          </button>
+          <button class="action-card" type="button" data-action="Review a team failure, accept leader responsibility, and lead an after-action improvement.">
+            <span>ACCOUNTABILITY</span>
+            <h3>Lead the Improvement</h3>
+            <p>Identify what happened, why it happened, what will change, and how the change will be verified.</p>
+          </button>
+        </div>
+
+        <div class="commitment-card">
+          <small>MY LEADERSHIP COMMITMENT</small>
+          <h3 id="selectedAction">Select one action above.</h3>
+          <label>
+            When will you complete it?
+            <input id="actionWhen" type="text" placeholder="Example: During staff meeting on Thursday" />
+          </label>
+          <button class="primary-btn" id="saveAction" type="button">Save Commitment</button>
+          <div class="status-message" id="actionStatus"></div>
+        </div>
+      </section>
+
+      <section class="lesson-section completion-section" id="complete" data-section="complete">
+        <div class="completion-card">
+          <div class="completion-badge">✓</div>
+          <span class="eyebrow">WEEK 2 • LESSON 1</span>
+          <h2>Leadership Is a Choice</h2>
+          <p id="completionMessage">
+            Complete each section to unlock your final lesson status.
+          </p>
+
+          <div class="completion-stats">
+            <div>
+              <span id="finalProgress">0%</span>
+              <small>Lesson progress</small>
+            </div>
+            <div>
+              <span id="finalCompass">—</span>
+              <small>Compass score</small>
+            </div>
+            <div>
+              <span id="finalWords">0</span>
+              <small>Reflection words</small>
+            </div>
+          </div>
+
+          <div class="completion-checklist" id="completionChecklist"></div>
+
+          <div class="completion-actions">
+            <a class="ghost-btn link-btn" href="../../index.html">Return to Dashboard</a>
+            <button class="primary-btn" id="printSummary" type="button">Print / Save Summary</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="lesson01.js"></script>
+</body>
+</html>
